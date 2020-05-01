@@ -1,6 +1,8 @@
-# RUDE : A classification method for unbalanced data
+RUDE : A classification method for unbalanced data
+==================================================
 
-#### The problem 
+The problem
+-----------
 
 Consider the following problem: the mayor of a city wants to administer some medical drug to his citizens with respect 
 to a given disease based on people's clinical history. The drug will have no negative effect on healthy people and could 
@@ -16,7 +18,8 @@ observed true positives by far exceeds the number of true negatives, <i>i.e.</i>
 Therefore, we have a binary classification task in an unbalanced dataset where the main goal is control to the false 
 positive rate while maximizing the accuracy. Note that the negatives correspond to the minority class. 
 
-#### Resampling Unbalanced Data for Ensembling (RUDE)
+Resampling Unbalanced Data for Ensembling (RUDE)
+------------------------------------------------
 
 Assume the data \{(x<sub>i</sub>, y<sub>i</sub>)}<sub>i=1...n</sub> was split into a balanced test set for metric reliability and the rest of the 
 unbalanced data was dumped into the training set. We let be any binary classifier and outline below our training 
@@ -33,13 +36,18 @@ We observe that this strategy shows very low false positive rates and substantia
 We believe the FPR control is mainly due to the fact that every estimator has a somewhat clear idea of the distribution 
 of the minority class with respect to a subsample of the majority class.
 
-#### Installation
+Getting Started
+---------------
+
+A simple call to pip for installation of the package.
 
 ```bash
+pip install -r requirements.txt
 pip install rude
 ```
 
-#### Examples
+Examples
+--------
 
 ##### Generic Example
 ```python
