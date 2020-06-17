@@ -1,7 +1,7 @@
 RUDE : A classification method for unbalanced data
 ==================================================
 
-UPDATE : This just partly revisits the idea of asymetric bagging. See for example : Tao, Dacheng, Xiaoou Tang, Xuelong Li, and Xindong Wu. "Asymmetric bagging and random subspace for support vector machines-based relevance feedback in image retrieval." IEEE transactions on pattern analysis and machine intelligence 28, no. 7 (2006): 1088-1099.
+**UPDATE** : This just partly revisits the idea of asymetric bagging. See for example : *Tao, Dacheng, Xiaoou Tang, Xuelong Li, and Xindong Wu. "Asymmetric bagging and random subspace for support vector machines-based relevance feedback in image retrieval." IEEE transactions on pattern analysis and machine intelligence 28, no. 7 (2006): 1088-1099.*
 
 The problem
 -----------
